@@ -1,0 +1,38 @@
+.news-section {
+  padding: 2rem;
+  background-color: #111;
+  color: #fff;
+  border-radius: 30px;
+  height:500px
+}
+
+.news-title {
+  font-size: 2rem;
+  color: #fcd535;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+}
+
+.news-card {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #fcd535;
+  transition: transform 0.2s;
+}
+
+.news-card:hover {
+  transform: scale(1.02);
+}
+
+.news-date {
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}

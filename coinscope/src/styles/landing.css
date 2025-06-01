@@ -1,0 +1,62 @@
+.landingpage {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  padding-top: 0px; /* Offset for fixed navbar */
+  font-family: sans-serif;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.info {
+  text-align: center;
+  margin: 4rem auto 2rem;
+  padding: 2rem;
+  max-width: 800px;
+}
+
+.info .brand {
+  font-size: 3rem;
+  color: #fcd535;
+  font-weight: bold;
+}
+
+.info .description {
+  display: block;
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+.popularcoins,
+.recentnews,
+.frequentques {
+  padding: 3rem 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.popularnews-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.popularcoins {
+  flex: 1;
+  min-width: 300px;
+}
+
+.recentnews {
+  flex: 1;
+  min-width: 300px;
+}
