@@ -1,0 +1,87 @@
+.faq-section {
+  background-color: #121212;
+  color: white;
+  padding: 2rem;
+  border-top: 1px solid #333;
+  border-radius: 50px;
+}
+
+.faq-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fcd535;
+}
+
+.faq-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.faq-item {
+  border-bottom: 1px solid #333;
+  padding: 1rem 1rem;
+  transition: background-color 0.3s ease;
+  border-radius: 10px; /* to create rounded hover effect */
+}
+
+/* Hover effect: whole item turns yellow */
+.faq-item:hover {
+  background-color: #fcd535;
+  color: black;
+}
+
+/* Ensure all nested text and icons adapt color on hover */
+.faq-item:hover .faq-text,
+.faq-item:hover .faq-toggle,
+.faq-item:hover .faq-answer{
+  color: rgb(0, 0, 0);
+}
+
+/* FAQ Question Layout */
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Number Circle */
+.faq-number {
+  background-color: #2a2a2a;
+  color: #fcd535;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  margin-right: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Number Circle on hover: turn black for contrast */
+.faq-item:hover .faq-number {
+  background-color: black;
+}
+
+/* Question Text */
+.faq-text {
+  flex: 1;
+  font-weight: 600;
+}
+
+/* Toggle Symbol (+/-) */
+.faq-toggle {
+  font-size: 1.5rem;
+  color: #fcd535;
+  transition: color 0.3s ease;
+}
+
+/* Answer Paragraph */
+.faq-answer {
+  margin-top: 1rem;
+  color: #ccc;
+  padding-left: 2.5rem;
+}

@@ -1,0 +1,128 @@
+.Navigation {
+  position: fixed;
+  top: 5px;
+  left: 15%;
+  right: 0;
+  z-index: 1000; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #2a2a2a;
+  color: #fff;
+  font-family: sans-serif;
+  border-radius: 80px;
+  max-width: 70%;
+}
+
+.coinscope {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fcd535; 
+}
+
+.Navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 44px;
+  margin: 0;
+  padding: 0;
+}
+
+.Navigation li {
+  cursor: pointer;
+  transition: color 0.2s;
+  font-size: 20px;
+}
+
+.Navigation .crypto:hover {
+  color: #fcd535;
+}
+
+.Navigation .home:hover {
+  color: #fcd535;
+}
+
+.Navigation .about:hover {
+  color: #fcd535;
+}
+
+.login button {
+  margin-left: 12px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.login .login {
+  background-color: transparent;
+  color: white;
+  font-size: 1.1rem;
+  border:2px solid #ffffff;
+  border-radius: 100px;
+}
+
+.login .sign-up {
+  background-color: #fcd535;
+  color: black;
+  font-size:1.1rem;
+}
+
+.login .sign-up:hover {
+  background-color: #e0b42a;
+  
+}
+
+.login .login:hover{
+  color:#e0b42a;
+  border:2px solid #e0b42a;
+}
+
+.username {
+  margin-right: 10px;
+  font-weight: 600;
+  color: #fcd535;
+  font-size: 1.1rem;
+  padding: 5px;
+  border:2px solid #fcd535;
+  border-radius: 100px;
+}
+
+.login .logout {
+  margin-left: 12px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #fcd535;
+  color: black;
+  transition: background-color 0.2s;
+  font-size: 1.1rem;
+}
+
+.login .logout:hover {
+  background-color: #e0b42a;
+}
+
+
+.Navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.Navigation a:hover {
+  color: #fcd535;
+  text-decoration: underline;
+}
+
+.Navigation a:visited {
+  color: white;
+}
+
+.Navigation a:active {
+  color: #fcd535;
+}
